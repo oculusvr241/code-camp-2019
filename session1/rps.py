@@ -16,4 +16,10 @@ if p1=='p':
     #p1 loses
     if p2=='s':
         print('p2 wins with scissors')    
-    
+if p1=='s':
+    #p1 wins
+    if p2=='p':
+        print('p1 wins with scissors')
+    #p1 loses
+    if p2=='r':
+        print('p2 wins with rock')
